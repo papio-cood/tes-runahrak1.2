@@ -1,0 +1,248 @@
+*   {
+        margin: 0px;
+        padding: 0px;     
+    }
+
+body
+    {
+        margin: 0;
+        padding: 0;
+        font-family: 'open sans', sans-serif;        
+    }
+.wrapper 
+    {
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+
+.box
+    {
+        display: flex;
+        line-height: 150%;
+        background: red;
+        position: sticky;
+        position: -webkit-sticky;
+        font-size: 17px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        }
+
+nav 
+    {
+        position: sticky;
+        position: -webkit-sticky;
+        width: 100%;
+        line-height: 200%;
+        background: white;       
+        border-bottom:solid; 
+        border-color: red;
+        margin: auto;
+        display: flex;
+        top: 0;
+    }
+
+.menu 
+    {
+        float: right;
+        margin-left: 5vw;
+        margin-right: 3vw;
+    }
+
+nav ul
+    {
+        margin-top: 10px;
+        overflow: hidden;
+        list-style-type: none;
+        padding: 0;
+        
+    }
+
+nav ul li
+    {
+        float: left;
+    }
+
+nav ul li a
+    {   
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        padding: 9px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+nav ul li a:hover
+    {
+        text-decoration: underline;   
+    }
+
+.logo a 
+    {
+        float: left;
+        text-decoration: none;
+        line-height: 40px;
+        font-size: 30px;
+        font-weight: 800;
+        margin-left: 22px;
+        font-family: Courier;
+        color: red;
+    }
+
+.logop
+    {
+        line-height: 25px;
+        float: left;
+        margin-left: -160px;
+        font-size: 16px;
+        font-weight: 800;
+        font-family: Courier;
+        color: red;
+    }
+
+
+section
+    {
+        margin: auto;
+        display: flex;
+    }
+
+.img
+    {
+        margin-right: 5.3vw;
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 1.5vw;
+        width: 30vw;
+    }
+
+.kolom
+    {
+        width: 35vw;
+        font-size: 1.5vw;
+        font-family: 'comic sans ms';
+        margin-top: 3.5vh;
+        margin-left: 5vw;
+        margin-right: 2vw;
+    } 
+
+
+.imge
+    {
+        margin-right: 5.3vw;
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 1.5vw;
+        width: 30vw;
+    }
+
+.img a
+    {
+        text-decoration: none;
+        color: black;
+    }
+.img p mark
+    {
+        color: white;
+    }
+.kolomdua
+    {
+        width: 35vw;
+        font-size: 1.5vw;
+        font-family: 'comic sans ms';
+        margin-top: 3.5vh;
+        margin-left: 5vw;
+        margin-right: 2vw;
+    } 
+
+.kolom .diskripsi
+    {
+        width: 35%;
+        font-weight: bold;
+        color:red;
+
+    }
+
+h2
+    {
+        font-family: 'comic sans ms';
+        font-weight: 800;
+        font-size: 3vw;
+        color:red;
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+    }
+
+a.tbl-biru
+    {
+        background:red;
+        font-size: 13px;
+        padding: 1vh;
+        border-radius: 20vw;
+        color: rgb(250, 250, 250);
+    }
+a.tbl-biru:hover
+    {
+        background: rgb(58, 57, 57);
+    }
+
+a.tbl-red
+    {
+        background:red;
+        padding: 5% 5% 5% 5%;
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 200px;
+        color: white;
+        margin-top: 5%;
+        float: left;
+        text-decoration: none;
+        text-align: center;
+    }
+
+a.tbl-red:hover
+    {
+        background: black;
+    }
+
+a.tbl-htm
+    {   
+        background:red;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 5px 15px 5px 15px;
+        border-radius: 200px;
+        text-align: center;
+        
+        color: white;
+        margin-top: 5%;
+        float: left;
+        text-decoration: none;
+    }
+
+
+a.tbl-htm:hover
+    {
+        background: black;
+    }
+
+@media screen
+{    
+section 
+    {
+        width: 100%;       
+    }
+nav 
+    { 
+        width: 100%;
+    }
+
+.box
+    {
+        width: 100%;
+        display: block;
+    }
+
+}
